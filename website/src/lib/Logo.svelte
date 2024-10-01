@@ -28,6 +28,6 @@
 
   #sponsor_logo {
     height: 60px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
 </style>
