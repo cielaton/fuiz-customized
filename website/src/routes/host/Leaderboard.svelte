@@ -43,7 +43,7 @@
 	style:flex-direction="column"
 >
 	<Topbar bind:bindableGameInfo {gameInfo} {fullscreenElement} on:lock />
-	<TextBar on:next text={m.scores()} showNext={true} heading={true} />
+	<TextBar on:next text={""} showNext={true} heading={true} />
 	<div style:flex="1">
 		<NiceBackground>
 			<div

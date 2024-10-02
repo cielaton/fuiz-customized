@@ -26,7 +26,7 @@
 	style:flex-direction="column"
 >
 	<Topbar bind:bindableGameInfo {gameInfo} {fullscreenElement} on:lock />
-	<TextBar on:next text={questionText} showNext={true} />
+	<TextBar on:next text={""} showNext={true} />
 	<div style:flex="1">
 		<NiceBackground>
 			<VerticalSplit>

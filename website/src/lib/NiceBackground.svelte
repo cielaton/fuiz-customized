@@ -8,8 +8,6 @@
 </script>
 
 <div style:height="100%" style:position="relative">
-    <div
-    />
     <img src="$lib/assets/LightBackground.png" alt="The light theme background"/>
     <div style:height="100%">
         <slot/>
@@ -20,7 +18,7 @@
     img {
         height: 100%;
         width: 100%;
-
+        object-fit: cover;
         inset: 0;
         position: absolute;
         overflow: hidden;
