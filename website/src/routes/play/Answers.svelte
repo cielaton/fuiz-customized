@@ -15,14 +15,14 @@
 	export let answers: (TextOrMedia | undefined)[];
 </script>
 
-<div style:height="100%" style:display="flex" style:flex-direction="column">
+<div style:height="100%" style:width="100%" style:display="flex" style:flex-direction="column">
 	<div>
 		<Topbar {name} {score} />
 		{#if showAnswers}
 			<TextBar text={questionText} />
 		{/if}
 	</div>
-	<div style:flex="1">
+	<div style:flex="1" style:height="100%">
 		<NiceBackground>
 			<div style:height="100%" style:display="flex" style:flex-direction="column">
 				{#if media && showAnswers}
