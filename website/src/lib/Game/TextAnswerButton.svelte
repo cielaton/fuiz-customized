@@ -50,3 +50,9 @@
 		</div>
 	</FancyButton>
 </div>
+
+<style>
+	#text {
+		font-size: 80px;
+	}
+</style>

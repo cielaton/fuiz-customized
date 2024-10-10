@@ -67,8 +67,8 @@
 	}
 
 	:global(html[data-theme='dark']) {
-		--background-color: #241f31;
-		--color: #fffbf5;
+		--background-color: #fffbf5;
+		--color: #241f31;
 	}
 
 	:global(body) {

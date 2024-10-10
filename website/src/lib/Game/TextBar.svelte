@@ -26,7 +26,7 @@
 >
 	<div
 		style:flex="1"
-		style:font-size="1.5em"
+		style:font-size="3em"
 		style:font-weight="bold"
 		style:word-break="break-word"
 		style:font-family={heading ? 'Poppins' : 'inherit'}

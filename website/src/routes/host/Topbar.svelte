@@ -38,7 +38,7 @@
 	style:justify-content="center"
 	style:flex-wrap="wrap"
 >
-	<ExitFuiz />
+	<!--<ExitFuiz />-->
 	<div
 		style:display="flex"
 		style:padding="0.2em 0.4em"
@@ -54,24 +54,24 @@
 			})}
 		</div>
 	</div>
-	<div
-		style:flex="100"
-		style:justify-content="center"
-		style:display="flex"
-		style:gap="1ch"
-		style:align-items="baseline"
-		style:white-space="nowrap"
-		style:font-family="Poppins"
-		style:font-weight="800"
-	>
-		{m.game_code_display({
-			code: gameInfo.gameCode
-		})}
-	</div>
+<!--	<div-->
+<!--		style:flex="100"-->
+<!--		style:justify-content="center"-->
+<!--		style:display="flex"-->
+<!--		style:gap="1ch"-->
+<!--		style:align-items="baseline"-->
+<!--		style:white-space="nowrap"-->
+<!--		style:font-family="Poppins"-->
+<!--		style:font-weight="800"-->
+<!--	>-->
+<!--		{m.game_code_display({-->
+<!--			code: gameInfo.gameCode-->
+<!--		})}-->
+<!--	</div>-->
 	<div
 		style:flex="1"
 		style:display="flex"
-		style:justify-content="space-between"
+		style:justify-content="flex-end"
 		style:align-items="center"
 		style:gap="0.2em"
 		style:padding="0.2em"
